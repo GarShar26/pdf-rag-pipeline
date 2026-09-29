@@ -1,0 +1,29 @@
+# Environment / secrets
+.env
+.env.*
+
+# Virtual environments
+.venv/
+venv/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+wheels/
+
+# IDE / editor files
+.idea/
+.vscode/
+
+# Local vector database
+qdrant_storage/
+
+# Uploaded documents
+uploads/*
+!uploads/.gitkeep
+
+# OS files
+.DS_Store
